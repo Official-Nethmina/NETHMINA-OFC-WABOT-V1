@@ -71,7 +71,7 @@ let status = `
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪɴᴀ ᴏꜰᴄ ||
 `
 await robin.sendPresenceUpdate('recording', from);
-      await robin.sendMessage(from, { audio: { url: "https://github.com/Official-Nethmina/NETHMINA-OFC-WABOT/raw/refs/heads/main/data/audio/bot.mp3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+      await robin.sendMessage(from, { audio: { url: "https://github.com/Official-Nethmina/NETHMINA-OFC-WABOT-V1/raw/refs/heads/main/data/audio/bot.mp3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
       await robin.sendMessage(
         from,
         {
